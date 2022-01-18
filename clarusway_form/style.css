@@ -10,7 +10,8 @@ h3 {color:gold; font-size: 1.5rem;}
 #textarea {resize: none;}
 body {background-image: url(./images/background.jpg);
 box-sizing: border-box;}
-input {margin-top: 10px;margin-bottom: 10px;width: 400px; background-color:silver;font-size: 1rem;color: black;text-indent: 10px;}
+input {margin-top: 10px;margin-bottom: 10px; background-color:silver;font-size: 1rem;color: black;text-indent: 10px;}
+input:hover{background-color: blueviolet ;font-size: 40px;}
 .main {font-size: 1.5rem;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: deeppink;border: 5px solid rosybrown ;width: 650px;}
@@ -21,3 +22,5 @@ option {margin-top: 10px;margin-bottom: 10px;width: 400px; background-color:silv
 .div1 {border: 5px solid rosybrown ;margin-left: 0px;width: 650px;margin-top: 10px;margin-bottom: 10px; color: thistle;}
 textarea {border: 5px solid rosybrown ;width: 650px;background-color:rgb(192,192, 192;font-size: 1rem;color: black;text-indent: 10px;}
 #sub {font-size: 2rem; border: 5px red;}
+
+#murat {color: blue;}
