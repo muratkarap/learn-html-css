@@ -13,7 +13,7 @@
         <h2> Clarusway Surway Form <img src="./images/clarusway.png" alt="c" height="50px"></h2>
         <h3>Thank you for taking the time to help us improve the platform</h3>
     </header>
-    <main>
+    <main class="main">
         <label for="name">Name</label><br>
         <input type="text" name="name" id="name" placeholder="Enter your name"><br>
         <label for="surname">Surname</label><br>
@@ -21,19 +21,19 @@
         <label for="email">E-mail</label><br>
         <input type="email" name="email" id="email" placeholder="user@clarusway.com">
 
-    </main>
-    <nav>
+    </main><br>
+    <nav class="nav">
         <label for="role"> Which option best decribes your current role?</label><br>
-        <select name="role" id="dropdown">
+        <select class="select" name="role" id="dropdown">
             <option value="student">Student</option>
             <option value="teacher">Teacher</option>
             <option value="job">Full Time Job</option>
             <option value="role" selected>Select current role</option>
         </select>
      </nav>
-     <nav>
-         <label for="improved">What would you like to see improved</label><br>
-
+     <nav class="nav">
+         <label for="improved">What would you like to see improved</label>
+            <div class="div1">
          <input type="checkbox" name="front-end" id="front-end">
          <label for="front-end">Front-end Projects</label><br>
          <input type="checkbox" name="back-end" id="back-end">
@@ -42,15 +42,16 @@
          <label for="data">Data Science</label><br>
          <input type="checkbox" name="additional" id="additional">
          <label for="additional">Additional Courses</label><br>
+        </div>
          <main>
              <h3>Any comments or suggestions?</h3>
              <textarea id="textarea" name="comment" id="comment" cols="50" rows="10" placeholder="Please enter your comments and suggestions" ></textarea>
 
          </main>
      </nav>
-<footer>
-    <label for="submit"></label>
-    <input type="submit" value="Submit">
+<footer >
+    <label  for="submit"></label>
+    <input id="sub" type="submit" value="Submit">
 </footer>
 </body>
 </html>
