@@ -9,10 +9,18 @@
     <title>Clarusway Survey Form</title>
 </head>
 <body>
+    <div style="position: fixed; right: 650px;top:5px;color: rgb(42, 165, 144);font-size: 60px;;">
+        <h6>Why IT?</h6>
+    </div>
+    <div style="position: fixed; right: 400px;top: 50px;">
+<video width="620" height="540" controls src="./video/video_clrs.mp4">See more</video>
+    </div>
     <header id="header">
         <h2> Clarusway Surway Form <img src="./images/clarusway.png" alt="c" height="50px"></h2>
         <h3>Thank you for taking the time to help us improve the platform</h3>
     </header>
+  
+    <form action="#">
     <main class="main">
         <label for="name">Name</label><br>
         <input type="text" name="name" id="name" placeholder="Enter your name"><br>
@@ -24,7 +32,7 @@
     </main><br>
     <nav class="nav">
         <label for="role"> Which option best decribes your current role?</label><br>
-        <select class="select" name="role" id="dropdown">
+        <select class="select" name="role" id="role">
             <option value="student">Student</option>
             <option value="teacher">Teacher</option>
             <option value="job">Full Time Job</option>
@@ -37,7 +45,7 @@
          <input type="checkbox" name="front-end" id="front-end">
          <label for="front-end">Front-end Projects</label><br>
          <input type="checkbox" name="back-end" id="back-end">
-         <label for="front-end">Back-end Projects</label><br>
+         <label for="back-end">Back-end Projects</label><br>
          <input type="checkbox" name="data" id="data">
          <label for="data">Data Science</label><br>
          <input type="checkbox" name="additional" id="additional">
@@ -48,7 +56,12 @@
              <textarea id="textarea" name="comment" id="comment" cols="50" rows="10" placeholder="Please enter your comments and suggestions" ></textarea>
 
          </main>
+         <div>
+             <img style="position: fixed;right: 400px;bottom: 200px;" src="./images/best.png" alt="clrs" width="620px" height="340px">
+             <p style="position: fixed;right: 400px;bottom: 120px;">Best Bootcamp 2021</p>
+         </div>
      </nav>
+    </form>
 <footer >
     <label  for="submit"></label>
     <input id="sub" type="submit" value="Submit">
